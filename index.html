@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Kinect Sports!</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="music_button" onclick="muda_som(0)">Tenis</div>
+        <div class="music_button" onclick="muda_som(1)">Futebol americano</div>
+        <div class="music_button" onclick="muda_som(2)">Beisebol</div>
+        <div class="music_button" onclick="muda_som(3)">Golfe</div>
+        <div class="music_button" onclick="muda_som(4)">Esqui</div>
+        <div class="music_button" onclick="muda_som(5)">Dardos</div>
+        <div class="invisible"></div>
+        <div class="music_button" onclick="muda_som(6)">Store</div>
+        <div class="invisible"></div>
+    </div>
+
+    <center>
+        <h2 id="currentSong">algum_som.mp3</h2>
+    </center>
+
+    <div id="filter"></div>
+
+    <audio id="sound"></audio>
+    <audio id="sound2"></audio>
+</body>
+
+<script type="text/javascript" src="engine.js"></script>
+
+</html>
